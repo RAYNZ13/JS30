@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Rating Project</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"></link>
+</head>
+<body>
+    <div class="main" class="animate__animated animate__jackInTheBox">
+        <div class="box">
+            <div class="circle">
+                <div class="star">
+                    <img src="./images/icon-star.svg" alt="">
+                </div>
+            </div>
+            <h4>How did we do?</h4>
+            <p>Please let us know did with your support request. All feedback is apperciated to help us improve our offering!</p>
+            <div class="rating-buttons">
+                <button id="one" class="rate" data-rating="1">1</button>
+                <button id="two" class="rate" data-rating="2">2</button>
+                <button id="three" class="rate" data-rating="3">3</button>
+                <button id="four" class="rate" data-rating="4">4</button>
+                <button id="five" class="rate" data-rating="5">5</button>
+            </div>
+            <button type="submit" id="submit" animate__tada>Submit</button>
+        </div>
+
+        <div class="box2">
+            <div class="outside-img">
+                <img src="./images/outside.png" alt="" id="exit">
+            </div>
+            <div class="box2-content">
+                <div class="thanks-img">
+                    <img src="./images/illustration-thank-you.svg" alt="">
+                </div>
+                <div class="user-select">
+                    <h6></h6>
+                </div>
+                <h3>Thank you!</h3>
+                <div class="footer-desc">
+                    <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
